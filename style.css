@@ -1,0 +1,299 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+.hidden{
+  display: none !important;
+}
+
+#header{
+  display:flex;
+  justify-content: space-between;
+  padding-left:3%;
+  padding-right:3%;
+  padding-top: 1%;
+  padding-bottom:1%;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.line{
+  height: 5vmin;
+  width:0.1%;
+  background-color: #ffffff;
+}
+
+.headerButton{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;  
+    color:white;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+.headerButton:hover{
+  background-color: #0f0f0f !important;
+  transition:0.2s;
+  border-radius:0.25vmin;
+}
+
+#searchBar{
+  background-color: black;
+  color:white;
+  border: 1px solid white;
+}
+
+#searchHeader{
+  display:flex;
+}
+
+*{
+  color: white;
+}
+
+#searchButton{
+  border: 1px solid white;
+  margin-left:1vmin;
+  width:3vmin;
+}
+
+#entries{
+  width:95%;
+  position:absolute;
+  left:50%;
+  transform: translate(-50%);
+  text-align:center;
+  margin-top:1vmin;
+}
+
+#entryName{
+  border:1px solid white;
+  padding:1.5vmin;
+  margin:1vmin;
+}
+
+.entry{
+  border:1px solid white;
+  margin:1vmin;
+  padding:1.5vmin;
+}
+
+.entry:hover{
+  background-color: #0f0f0f !important;
+  transition:0.2s;
+  cursor:pointer;
+}
+
+#tableHeader{
+  display:flex;
+  justify-content:space-between;
+  padding:1vmin;
+  margin-top:1vmin
+}
+
+#tablePages{
+  display:flex;
+}
+
+.filter{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 1px solid white;;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;  
+    color:white;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+.filter:hover{
+  background-color: #0f0f0f !important;
+  transition:0.2s;
+  border-radius:0.25vmin;
+}
+
+#table2{
+  width:99%;
+  text-align: center;
+  border-collapse: collapse;
+  position:absolute;
+  left:50%;
+  transform: translate(-50%,0);
+  margin-top:1.25vmin;
+  table-layout:fixed;
+}
+
+th, td{
+  border: 1px solid white;
+  padding:1vmin;
+}
+
+#tablePages{
+  width:100%;
+}
+
+.pages{
+  background-color: transparent;
+  border: 1px solid white;;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;  
+  color:white;
+  padding-left:2%;
+  padding-right:2%;
+  width:50%;
+  height:5vmin;
+  margin:1px;
+}
+
+
+#tableHeader{
+  display: flex;
+  width:99%;
+  height:3vmin;
+  align-items: center;
+  
+}
+
+#pages{
+  width:100%;
+  align-items: center;
+  justify-content:center;
+}
+
+.pagesEntries{
+  background-color: transparent;
+  border: 1px solid white;;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;  
+  color:white;
+  width:5%;
+  height:5vmin;
+}
+
+#display{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:95%;
+  margin-top:2vmin;
+  height:5vmin;
+  padding-left:2.5%;
+  padding-right:2.5%;
+}
+
+button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;  
+    color:white;
+    border:1px solid white;
+    padding:1vmin;
+}
+
+button:hover{
+  background-color: #0f0f0f !important;
+  transition:0.2s;
+}
+
+#kevin{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  margin-top:2vmin;
+  height:7vmin;
+}
+
+.bar{
+  background-color: black;
+  color:white;
+  border: 1px solid white;
+  width:25%;
+  margin:0.5vmin;
+  margin-left:0vmin;
+  height:99%;
+}
+
+#kevinButton2{
+  height:105%
+}
+
+#path{
+  display:flex;
+  width:100%;
+  align-items:center;
+  justify-content: center;
+  margin-top:1vmin;
+}
+
+.box{
+  background-color: black;
+  color:white;
+  border: 1px solid white;
+  margin:1vmin;
+  padding:2%;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow:hidden;
+}
+
+#user{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:3vmin;
+  height:3.7vmin;
+}
+
+#profile{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:1vmin;
+  margin-top:2.6vmin;
+}
+
+#logout{
+  height:50%;
+  margin:1vmin;
+}
+
+.loginButton{
+  height:110%;
+  margin:0.25vmin;
+}
+
+#error{
+  margin:1vmin;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 0px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+#count{
+  margin:1vmin;
+}

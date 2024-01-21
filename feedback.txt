@@ -1,0 +1,44 @@
+Overall: I think overall, this product functions well. I think it has met all the requirements of rubric and has some clever implementations. All of your ponderings and discussions bore fruit.
+
+Communication:
+- Interface is simple. A little disappointed it wasn't the original.
+- While it wasn't in the requirements but the lack of error messages for some components felt a bit lacking.
+- All the expected components were made.
+- Documentation for all the code was made. Explains for functions were provided. I like that the documentations actually explained how the functions work.
+- All variables and functions are properly named. 
+- 100/100
+
+Thinking:
+- Search results averages < 10ms!
+- Excellent use of algorithms.
+- The most appropriate algorithm was chosen for all problems.
+- Algorithms were modified well. 
+- Code is mostly concise and efficient. I think there are parts that can be shortened using with for loops and data structures. 
+- Hardcoding anything is not good.
+- A good solution for dealing with the sorting.
+- 95/100
+
+Application:
+- Great use of variables and functions.
+- Functions were mostly reusable.
+	- Some function definitely could be made to help reusability
+- Most appropriate data structure was selected for algorithms. 
+- No array methods were used.
+- Big O is identified for functions. 
+- Code naming scheme for functions is not consistent. Shouldn't capitalize the first letter of functions.
+- 96/100
+
+Achievement unlocked! Bonus 1 completed!
+C --> 100 + 1 = 100
+T --> 95 + 1 = 96
+A --> 96 + 1 = 97
+
+Achievement unlocked! Bonus 2 completed!
+C --> 100 + 4 = 100
+T --> 96 + 4 = 100
+A --> 97 + 4 = 100
+
+Achievement unlocked! Bonus 2 completed!
+C --> 100 + 5 = 100
+T --> 100 + 5 = 100
+A --> 100 + 5 = 100

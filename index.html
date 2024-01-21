@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="header">
+    <p>imdb</p>
+    <div id="searchHeader">
+      <input id="searchBar" type="text">
+      <button id="searchButton" class="headerButton" onclick="Search()">></button>
+    </div>
+    <button id="tableButton" class="headerButton"onclick="DisplayFilter(0)">Table</button>
+    <button id="kevinButton" class="headerButton"onclick="DisplayKevin();">KEVIN BACON!!!</button>
+    <button id="displayLogin" class="headerButton"onclick="DisplayLogin();">login or signup</button>
+    <button id="displayProfile" class="hidden headerButton" onclick="DisplayProfile();">user</button>
+    <p id="time"></p>
+  </div> 
+
+<!--   <div id="search">
+  </div> -->
+    
+    <div class="hidden" id="display">
+      <b id="name"></b>
+      <p id="id"></p>
+      <p id="entryData"></p>  
+      <button id="star" onclick="Favorite();">Favorite</button>
+    </div>
+
+  <div class="hidden" id="profile">
+    <p id="usernameCool!"></p>
+    <button id="logout" onclick="Logout();">Logout</button>
+  </div>
+
+    <div class="hidden" id="user">
+      <input class="bar" id="username" type="text">
+      <input class="bar" id="password" type="text">
+      <button id="login" class="loginButton" onclick="Login()">login</button>
+      <button id="signup" class="loginButton" onclick="SignUp()">sign up</button>
+      <p id="error"></p>
+    </div>
+
+    <div id="kevin" class="hidden">
+      <input id="kevinBar" class="bar" type="text">
+      <input id="kevinBar2" class="bar" type="text">
+      <button id="kevinButton2" onclick="KevinBacon()">kevin me baby</button>
+      <p id="count"></p>
+    </div>
+    <div id="path"></div>
+    
+    <div id="entries" class="hidden">
+      <div id="entryName" style="font-weight: bold;" onclick="ToggleSearchType()">Actors (Click for Movies)</div>
+      <div id="entry0" onclick="EntryClick(0)"class="hidden entry"></div>
+      <div id="entry1" onclick="EntryClick(1)"class="hidden entry"></div>
+      <div id="entry2" onclick="EntryClick(2)"class="hidden entry"></div>
+      <div id="entry3" onclick="EntryClick(3)"class="hidden entry"></div>
+      <div id="entry4" onclick="EntryClick(4)"class="hidden entry"></div>
+      <div id="entry5" onclick="EntryClick(5)"class="hidden entry"></div>
+      <div id="entry6" onclick="EntryClick(6)"class="hidden entry"></div>
+      <div id="entry7" onclick="EntryClick(7)"class="hidden entry"></div>
+      <div id="pages">
+        <button class="pagesEntries" onclick="ChangePage(-1)"><</button>
+        <button class="pagesEntries" onclick=ChangePage(1)>></button>
+      </div>
+  </div>
+
+  <div id="table" class="hidden">
+    <div id="tableHeader">
+      <p id="tableTitle">Table</p>
+      <p id="tablePageCount">Page: 1</p>
+    </div>
+    
+    <div id="tablePages">
+      <button class="pages" onclick="ChangeTablePage(-1)"><</button>
+      <button class="pages" onclick=ChangeTablePage(1)>></button>
+    </div>
+    
+    <table id="table2">
+      <tr>
+        <th onclick="DisplayFilter(0)">Actor ID</th>
+        <th onclick="DisplayFilter(1)">Actor Name</th>
+        <th onclick="DisplayFilter(2)">Film ID</th></th>
+        <th onclick="DisplayFilter(3)">Film Name</th>
+        <th onclick="DisplayFilter(4)">Rating</th>
+        <th onclick="DisplayFilter(5)">Votes</th>
+        <th onclick="DisplayFilter(6)">Year Released</th>
+      </tr>
+    </table>
+    
+  </div>
+  
+  <script src="./DO_NOT_TOUCH/dataLoader.js"></script>
+  <script src="arraymethods.js"></script>
+  <script src="classes.js"></script>
+  <script src="/table/table.js"></script>
+  <script src="init.js"></script>
+  <script src="/search/display.js"></script>
+  <script src="/search/search.js"></script>
+  <script src="/kevinbacon/kevinbacon.js"></script>
+  <script src="/login/login.js"></script>
+</body>
+  
+</html>
